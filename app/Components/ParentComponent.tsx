@@ -3,23 +3,23 @@ import ChildComponent from "./ChildComponent";
 import Image from "next/image"
 
 const ParentComponent = () => {
-    let carImage1 = <Image src="/bmw.jpg" alt="bmw" height={300} width={300} />;
-    let carName1 = "BMW"
+    let carImage1 = <Image src="/Mercedes.jpg" alt="bmw" height={300} width={300} />;
+    let carName1 = "Mercedes"
     let carPrice1 = 400000
     let carReviews1 = 5.5
 
-    let carImage2 = <Image src="/bmw.jpg" alt="bmw" height={300} width={300} />;
+    let carImage2 = <Image src="/amg.jpg" alt="bmw" height={300} width={300} />;
     let carName2 = "Honda City"
     let carPrice2 = 500000
     let carReviews2 = 6.5
 
-    let carImage3 = <Image src="/bmw.jpg" alt="bmw" height={300} width={300} />;
+    let carImage3 = <Image src="/white.jpg" alt="bmw" height={300} width={300} />;
     let carName3 = "Lamborghini"
     let carPrice3 = 600000
     let carReviews3 = 7.5
 
-    let carImage4 = <Image src="/bmw.jpg" alt="bmw" height={300} width={300} />;
-    let carName4 = "Mercedes"
+    let carImage4 = <Image src="/red.jpg" alt="bmw" height={300} width={300} />;
+    let carName4 = "BMW"
     let carPrice4 = 700000
     let carReviews4 = 10.5
 

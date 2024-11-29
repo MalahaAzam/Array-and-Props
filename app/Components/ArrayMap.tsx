@@ -8,13 +8,13 @@ import React from "react"
 
 const ArrayMap = () => {
     const Cars = [
-        {carName: "Mercedes" , carImage: <Image src= "/bmw.jpg" alt="BMW" height={300} width={300}/>  , carPrice: 50000 , carReviews: 4.5 },
+        {carName: "Mercedes" , carImage: <Image src= "/Mercedes.jpg" alt="BMW" height={300} width={300}/>  , carPrice: 50000 , carReviews: 4.5 },
 
-        {carName: "Toyota" , carImage: <Image src= "/bmw.jpg " alt="Car" height={300} width={300}/>  , carPrice: 40000 , carReviews: 4.2 },
+        {carName: "Toyota" , carImage: <Image src= "/amg.jpg " alt="Car" height={300} width={300}/>  , carPrice: 40000 , carReviews: 4.2 },
 
-        {carName: "Honda City" , carImage: <Image src= "/bmw.jpg" alt="Honda " height={300} width={300}/>  , carPrice: 35000 , carReviews: 4.0 },
+        {carName: "Honda City" , carImage: <Image src= "/red.jpg" alt="Honda " height={300} width={300}/>  , carPrice: 35000 , carReviews: 4.0 },
 
-        {carName: "Lamborghini" , carImage: <Image src= "/bmw.jpg" alt="Lamborghini" height={300} width={300}/>  , carPrice: 70000 , carReviews: 4.8 },
+        {carName: "Lamborghini" , carImage: <Image src= "/white.jpg" alt="Lamborghini" height={300} width={300}/>  , carPrice: 70000 , carReviews: 4.8 },
     ]
 
  return(
