@@ -22,7 +22,7 @@ const ArrayMap = () => {
     {
         Cars.map((Veh, index) => {
         return (
-        <div key={index} className="mx-6 inline-block text-center my-5 p-2 bg-blue-200 w-72 border border-blue-800 text-black">
+        <div key={`${Veh.carName}-${index}`} className="mx-6 inline-block text-center my-5 p-2 bg-blue-200 w-72 border border-blue-800 text-black">
           {Veh.carImage}
           <p>Name: {Veh.carName}</p>
           <p>Price: {Veh.carPrice}</p>
