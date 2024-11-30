@@ -10,7 +10,7 @@ const ArrayMap = () => {
     const Cars = [
         {carName: "Mercedes" , carImage: <Image src= "/Mercedes.jpg" alt="BMW" height={300} width={300}/>  , carPrice: 50000 , carReviews: 4.5 },
 
-        {carName: "Toyota" , carImage: <Image src= "/amg.jpg " alt="Car" height={300} width={300}/>  , carPrice: 40000 , carReviews: 4.2 },
+        {carName: "Toyota" , carImage: <Image src= "/amg.jpg" alt="Car" height={300} width={300}/>  , carPrice: 40000 , carReviews: 4.2 },
 
         {carName: "Honda City" , carImage: <Image src= "/red.jpg" alt="Honda " height={300} width={300}/>  , carPrice: 35000 , carReviews: 4.0 },
 
