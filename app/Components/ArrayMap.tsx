@@ -14,7 +14,7 @@ const ArrayMap = () => {
 
         {carName: "Honda City" , carImage: <Image src= "/red.jpg" alt="Honda " height={300} width={300}/>  , carPrice: 35000 , carReviews: 4.0 },
 
-        {carName: "Lamborghini" , carImage: <Image src= "/white.jpg" alt="Lamborghini" height={300} width={300}/>  , carPrice: 70000 , carReviews: 4.8 },
+        {carName: "Lamborghini" , carImage: <Image src= "/white.jpg" alt="Lamborghini" height={300} width={300}/>  , carPrice: 70000 , carReviews: 4.8 }
     ]
 
  return(
@@ -22,8 +22,8 @@ const ArrayMap = () => {
     {
         Cars.map((Veh) => {
         return (
-        <div className="mx-6 inline-block text-center my-5 p-2 bg-blue-200 w-72 border border-blue-800 text-black ">
-          <p>{Veh.carImage}</p>
+        <div className="mx-6 inline-block text-center my-5 p-2 bg-blue-200 w-72 border border-blue-800 text-black">
+          {Veh.carImage}
           <p>Name: {Veh.carName}</p>
           <p>Price: {Veh.carPrice}</p>
           <p>Reviews: {Veh.carReviews}</p>

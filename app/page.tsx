@@ -6,7 +6,7 @@ import ParentComponent from "./Components/ParentComponent";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-teal-100">
+    <main className="min-h-screen bg-gray-200">
       <h1 className="flex justify-center font-extrabold text-purple-900 text-3xl py-5">Class 9 Assignment</h1>
       <p className="flex justify-center underline text-lg py-2 ">Using Array map</p>
    <ArrayMap/>
